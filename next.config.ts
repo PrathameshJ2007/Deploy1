@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+import {withGenkit} from '@genkit-ai/next';
+
 const nextConfig = {
   /* config options here */
   output: 'standalone',
@@ -26,4 +28,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default withGenkit(nextConfig);
