@@ -24,7 +24,7 @@
     "firebase": "^10.12.3",
     "genkit": "latest",
     "lucide-react": "^0.416.0",
-    "next": "14.2.5",
+    "next": "^15.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",
